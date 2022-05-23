@@ -1,0 +1,24 @@
+.button {
+    cursor:pointer;
+    border-style: hidden;
+    background-color: hsl(0, 0%, 98%);
+    width: 100px;
+    height: 30px;
+}
+
+.button:hover {
+    border-style:double;
+    border-width: 1px;
+    border-radius:30px;
+
+}
+
+.button.cardButton {
+    width: 120px;
+    height:40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left:25px ;
+    margin-top: 30px;
+}

@@ -1,0 +1,132 @@
+.navbar {
+    display: flex;
+    position:relative;
+    top: 20px;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.resposiveNavbar {
+    position: absolute;
+    left:750px;
+    top:100px;
+    width: 1000px;
+}
+
+
+
+
+.navbar-left {
+    display: flex;
+    text-indent: 20px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 200px;
+    flex-grow: 1;
+    height: 20px;
+}
+
+.navbar-right {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    text-indent: 10px;
+    margin-top: -5px;
+    left:70%;
+    list-style: none;
+}
+
+.arrowDown {
+    padding-left:8px;
+    padding-bottom: 2px;
+}
+
+.arrowUp {
+    padding-left:8px;
+    padding-bottom:2px;
+}
+
+.text {
+    cursor:pointer;
+    list-style: none;
+    text-indent: 35px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: -60px;
+    line-height: 25px;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: white;
+    width: 140px;
+    padding-left: 0px;
+    position: relative;
+    left: 20px;
+}
+
+.features li{
+    position: relative;
+    left:0%;
+    margin-top: 5px;
+}
+
+.features img {
+    position: relative;
+    right: 10px;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border-style: none;
+    border-width: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width:100px;
+    height: 100px;
+    padding-left: 0px;
+    margin-top: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.company li {
+    position: relative;
+    left: -10px;
+    margin-top: 12px;
+}
+
+.phoneIcon {
+    display: flex;
+    transform: scale(0);
+    position:absolute;
+    right: 100px;
+}
+
+@media screen and (max-width:600px) {
+
+    
+    
+    .navbar-left {
+    
+        display: none;
+    }
+
+    .phoneIcon {
+        display: block;
+        transform: scale(1);
+        cursor:pointer;
+        position: absolute;
+        object-fit: fill;
+        height: 40px;
+    }
+
+    
+}
